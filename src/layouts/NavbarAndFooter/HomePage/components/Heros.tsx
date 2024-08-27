@@ -11,13 +11,13 @@ export const Heros =()=>{
            
            <div className='col-4 col-md-4 container d-flex justify-content-center align-items-center'>
               <div className='ml-2'>
-                        <h1>what have you been reading?</h1>
+                        <h1>Qu'avez-vous lu récemment ?</h1>
                         <p className='lead'>
-                        The library team would love to know what you have been reading.
-                        whether it is to learn a new skill or grow within one ,
-                        we will able to provide the top content for you ! 
+                        L'équipe de la bibliothèque aimerait savoir ce que vous avez lu. Que ce soit pour apprendre une nouvelle 
+                        compétence ou pour progresser dans un domaine, nous serons en mesure de vous fournir les meilleurs 
+                        contenus !
                          </p>
-                         <a className='btn main-color btn-lg text-white' href="#">Sign up</a>
+                         <a className='btn main-color btn-lg text-white' href="#">Se connecter</a>
               </div>
            </div>
         </div>
@@ -25,13 +25,12 @@ export const Heros =()=>{
              <div className='col-4 col-md-4 container d-flex 
              justify-content-center align-items-center  '>
                 <div className='ml-2'>
-                   <h1>Our collection is always changing! </h1>
+                   <h1>Notre collection évolue toujours !</h1>
                     <p className='lead'>
-                    Try to check in daily as our collection is always changing!
-                    we work nonstop to provide the most accurate book selection possible 
-                    for our Luv 2 Read students!we are diligent about our book selection 
-                   and our books are always going to be our 
-                    top priority.
+                    Essayez de vous connecter quotidiennement car notre collection évolue toujours ! 
+                    Nous travaillons sans relâche pour offrir la sélection de livres la plus précise 
+                    possible à nos étudiants de Niit. Nous sommes assidus dans le choix de nos livres, 
+                    et ces derniers seront toujours notre priorité absolue.
                      </p>
                 </div>
              </div>
@@ -48,25 +47,24 @@ export const Heros =()=>{
               <div className='m-2'>
                 <div className='col-image-left'> </div>
                 <div className='mt-2'>
-                <h1>what have you been reading?</h1>
+                <h1>Qu'avez-vous lu récemment ?</h1>
                         <p className='lead'>
-                        The library team would love to know what you have been reading.
-                        whether it is to learn a new skill or grow within one ,
-                        we will able to provide the top content for you ! 
+                        L'équipe de la bibliothèque aimerait savoir ce que vous avez lu. 
+                        Que ce soit pour apprendre une nouvelle compétence ou progresser dans un domaine, 
+                        nous serons en mesure de vous fournir les meilleurs contenus !
                          </p>
-                         <a className='btn main-color btn-lg text-white' href="#">Sign up</a>   
+                         <a className='btn main-color btn-lg text-white' href="#">Se connecter</a>   
                 </div>
               </div> 
              <div className='m-2'>
                <div className='col-image-right'> </div>
                 <div className='mt-2'> </div>    
-                <h1>Our collection is always changing! </h1>
+                <h1>Notre collection est toujours en évolution !</h1>
                     <p className='lead'>
-                    Try to check in daily as our collection is always changing!
-                    we work nonstop to provide the most accurate book selection possible 
-                    for our Luv 2 Read students!we are diligent about our book selection 
-                    and our books are always going to be our 
-                    top priority.
+                    Essayez de vous connecter quotidiennement car notre collection est toujours en évolution !
+                     Nous travaillons sans relâche pour offrir la sélection de livres la plus précise possible 
+                     pour nos étudiants de Niit. Nous sommes assidus dans le choix de nos livres et ils seront 
+                     toujours notre priorité absolue.
                      </p>
 
              </div> 

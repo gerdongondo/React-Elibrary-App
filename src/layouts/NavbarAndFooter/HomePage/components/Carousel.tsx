@@ -3,6 +3,7 @@ import { useEffect,useState } from "react"
 import  BookModel  from "../../../../models/BookModels"
 import { error } from "console";
 import { SpinnerLoading } from "../../../Utils/SpinnerLoading";
+import { Link } from "react-router-dom";
 
 
 export const Carousel=()=>{
@@ -77,7 +78,7 @@ export const Carousel=()=>{
     return(
         <div className='container mt-5' style={{height:550}}>
           <div className='homepage-carousel-title'>
-            <h3>Find your next " I stayed up too late reading" book.</h3>
+            <h3>Trouvez votre prochain livre 'pour lequel vous resterez éveillé tard à lire'.</h3>
           </div>
 
           <div id='carouselExampleControls' className='carousel carousel-dark slide mt-5 d-none d-lg-block' data-bs-interval='false'>
@@ -116,12 +117,12 @@ export const Carousel=()=>{
             </div>
               <button className='carousel-control-prev' type='button' data-bs-target='#carouselExampleControls' data-bs-slide='prev'>
                  <span className='carousel-control-prev-icon' aria-hidden='true'> </span>
-                 <span className='visually-hidden'>Previous</span>
+                 <span className='visually-hidden'>Précédent</span>
               </button>
 
               <button className='carousel-control-next' type='button' data-bs-target='#carouselExampleControls' data-bs-slide='prev'>
                 <span className='carousel-control-next-icon' aria-hidden='true'></span>
-                <span className='visually-hidden'>Next</span>
+                <span className='visually-hidden'>Suivant</span>
                 </button>  
            </div>
 
@@ -133,7 +134,7 @@ export const Carousel=()=>{
                   </div>
             </div>
             <div className='homepage-carousel-title mt-3'>
-                <a className='btn btn-outline-secondary btn-lg' href="#">View More</a>
+                <Link className='btn btn-outline-secondary btn-lg' to="/search">Voir Plus</Link>
              
             </div>
 

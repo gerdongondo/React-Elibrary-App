@@ -6,15 +6,15 @@ export const LibraryServices=()=>{
             <div className='row p-4 align-items-center border shadow-lg'>
                 <div className='col-lg-7 p-3'>
                     <h1 className='display-4 fw-bold'>
-                        Can't find what you are looking for?
+                    Vous ne trouvez pas ce que vous cherchez ?
                     </h1>
                     <p className='lead'>
-                    If you cannot find what you are looking for,
-                    send our library admin's a personal message!
+                    Si vous ne trouvez pas ce que vous cherchez, envoyez un message 
+                    personnel à nos administrateurs de la bibliothèque !
                      </p>
                      <div className='d-grid gap-2 justify-content-md-start mb-4 mb-lg-3'>
                             <a className='btn main-color btn-lg text-white' href="#">
-                               Sign up     
+                               Se connecter    
                             </a>
                      </div>
                 </div>

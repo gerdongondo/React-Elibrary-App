@@ -148,7 +148,7 @@ export const SearchBooksPage=()=>{
                              />
                               <button className='btn btn-outline-success' 
                               onClick={()=>searchHandleChange()}>
-                                 Search
+                                 Recherche
                               </button>
                            </div> 
                      </div>
@@ -161,7 +161,7 @@ export const SearchBooksPage=()=>{
 
                          <ul className='dropdown-menu' aria-labelledby='dropdownMenuButton1'>
                             <li onClick={()=>categoryField('All')}>
-                                <a className='dropdown-item' href="#">All </a>
+                                <a className='dropdown-item' href="#">Tous </a>
                             </li>
 
                             <li onClick={()=>categoryField('FE')}>
@@ -183,10 +183,10 @@ export const SearchBooksPage=()=>{
                 {totalAmountOfBook > 0 ?
                   <>
                  <div className='mt-3'>
-                      <h5>Number of results:({totalAmountOfBook}) </h5>  
+                      <h5>Nombre de résultats:({totalAmountOfBook}) </h5>  
                  </div>
                     <p>
-                        {indexOfFirstBook+1} to {lastItem} of {totalAmountOfBook} items:
+                        {indexOfFirstBook+1} de {lastItem} à {totalAmountOfBook} éléments:
                     </p>
                      {books.map(book=>(
                         <SearchBook book={book} key={book.id}/>
@@ -195,9 +195,9 @@ export const SearchBooksPage=()=>{
                   :
                   <div className='m-5'>
                       <h3>
-                        Can't find what you are looking for ?
+                      Vous ne trouvez pas ce que vous cherchez ?
                       </h3>
-                       <a type='button' className='btn main-color btn-md px-4 me-md-2 fw-bold text-white' href="#">Library Services </a>
+                       <a type='button' className='btn main-color btn-md px-4 me-md-2 fw-bold text-white' href="#">Services de la bibliothèque </a>
                   </div>
                   }
               {totalPages > 1&&
